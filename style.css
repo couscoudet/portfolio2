@@ -16,11 +16,12 @@ a {
 
 body{
     width: 100%;
-    height: 100vh;
     background: #000;
 }
 
 nav{
+    padding-top: 20px;
+    background: #000;
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -95,11 +96,11 @@ h3{
     top: 10vh;
     font-size: 4em;
     text-shadow: 5px 0 10px rgba(255,255,255,.5);
-    
+    margin-bottom: 50px;
 }
 
 #welcome-section {
-    height: 100vh;
+    height: 90vh;
     padding-top: 80px;
     padding-top: 30vh;
     padding-left: 10%;
@@ -116,24 +117,24 @@ h3{
     background: #333;
     font-size: 2rem;
     padding: 20px;
-    width: 350px;
+    width: 300px;
 }
 
 #hero-img {
     position: absolute;
-    width: 50%;
+    height: 30%;
     bottom: 0px;
     right: 50px;
 }
 
 #projects{
-    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 80px;
     flex-wrap: wrap;
     position: relative;
+    min-height: 100vh;
 }
 
 .project-tile{
@@ -144,8 +145,18 @@ h3{
     border-radius: 5px;
     color: #87dfe9;
     font-size: 1.5em;
+    margin-bottom: 20px;
     
-    
+}
+
+#tile-container{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .project-tile a{
@@ -162,9 +173,23 @@ h3{
 }
 
 #profile{
-    height: 100vh;
+    min-height: 90vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 600px){
+    :root{
+        font-size: 20px;
+    }
+
+    #hero-text h2{
+        width: 450px;
+    }
+    
+    #hero-img{
+        height: 70%
+    }
 }

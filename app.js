@@ -33,11 +33,11 @@ links.forEach((link, index) => {
 
 //Animation TypeWriter//
 const txtAnim = document.querySelector("h2");
-const phrase1 = "RESPONSIVE WEBSITE"
+const phrase1 = "RESPONSIVE"
 const phrase1clear = "Chef de projet digital"
 const phrase2 = "HTML/CSS"
 const phrase3 = "FLEXBOX, GRID"
-const phrase4 = "MEDIA QUERIES"
+const phrase4 = "MEDIA-QUERIES"
 const phrase5 = "WEB-DESIGN"
 
 
